@@ -3,7 +3,7 @@ import axios from "axios";
 import { API_BASE_URL } from "../../config/Config";
 
 
-// <----------------  User LOgin Api's --------------->
+// <----------------  User LOgin Api's ---------------->
 export const Admin_Login_post = async (userData) => {
     try {
         const response = await axios.post(`${API_BASE_URL}/admin/login`, userData);
